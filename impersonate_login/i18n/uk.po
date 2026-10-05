@@ -53,3 +53,32 @@ msgstr "Дата початку"
 #: model:ir.model.fields,field_description:impersonate_login.field_impersonate_log__user_id
 msgid "User"
 msgstr "Користувач"
+
+#. module: impersonate_login
+#: model:ir.model.fields,field_description:impersonate_login.field_mail_mail__impersonated_author_id
+#: model:ir.model.fields,field_description:impersonate_login.field_mail_message__impersonated_author_id
+msgid "Impersonated Author"
+msgstr "Автор, від імені якого виконано дію"
+
+#. module: impersonate_login
+#: model:ir.model.fields,field_description:impersonate_login.field_impersonate_log__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: impersonate_login
+#: model:ir.model.fields,field_description:impersonate_login.field_impersonate_log__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: impersonate_login
+#: model:ir.model.fields,field_description:impersonate_login.field_res_config_settings__restrict_impersonate_admin_settings
+#: model_terms:ir.ui.view,arch_db:impersonate_login.view_res_config_settings_impersonate
+msgid "Restrict Impersonation of 'Administration: Settings' Users"
+msgstr "Обмежити вхід від імені користувачів «Адміністрування: Налаштування»"
+
+#. module: impersonate_login
+#. odoo-javascript
+#: code:addons/impersonate_login/static/src/js/user_menu.esm.js:0
+#: model_terms:ir.ui.view,arch_db:impersonate_login.impersonate_res_users_tree
+msgid "Switch Login"
+msgstr "Перемкнути вхід"

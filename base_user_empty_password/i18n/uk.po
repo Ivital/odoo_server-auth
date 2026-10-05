@@ -33,3 +33,29 @@ msgstr "Відображувана назва"
 #: model:ir.model.fields,field_description:base_user_empty_password.field_empty_password_wizard__user_ids
 msgid "User"
 msgstr "Користувач"
+
+#. module: base_user_empty_password
+#: model_terms:ir.ui.view,arch_db:base_user_empty_password.empty_password_wizard_view
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: base_user_empty_password
+#: model:ir.actions.act_window,name:base_user_empty_password.empty_password_wizard_action
+#: model_terms:ir.ui.view,arch_db:base_user_empty_password.empty_password_wizard_view
+msgid "Empty Password"
+msgstr "Порожній пароль"
+
+#. module: base_user_empty_password
+#: model:ir.model.fields,field_description:base_user_empty_password.field_res_users__has_password
+msgid "Has Password"
+msgstr "Має пароль"
+
+#. module: base_user_empty_password
+#: model:ir.model.fields,field_description:base_user_empty_password.field_empty_password_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: base_user_empty_password
+#: model:ir.model.fields,field_description:base_user_empty_password.field_empty_password_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

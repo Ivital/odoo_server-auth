@@ -127,7 +127,7 @@ msgstr "Назва для відображення"
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__password_crypt
 msgid "Encrypted Password"
-msgstr ""
+msgstr "Зашифрований пароль"
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_company__password_history
@@ -176,7 +176,7 @@ msgstr "Нижній регістр"
 #: model:ir.model.fields,field_description:password_security.field_res_company__password_minimum
 #: model:ir.model.fields,field_description:password_security.field_res_config_settings__password_minimum
 msgid "Minimum Hours"
-msgstr ""
+msgstr "Мінімум годин"
 
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
@@ -219,7 +219,7 @@ msgstr ""
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
 msgid "Password Policy"
-msgstr ""
+msgstr "Політика паролів"
 
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
@@ -302,12 +302,12 @@ msgstr ""
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
 msgid "days."
-msgstr ""
+msgstr "днів."
 
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
 msgid "hours again."
-msgstr ""
+msgstr "годин знову."
 
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form

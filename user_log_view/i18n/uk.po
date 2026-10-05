@@ -17,3 +17,19 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:user_log_view.res_users_log_view_search
 msgid "Date"
 msgstr "Дата"
+
+#. module: user_log_view
+#: model:ir.actions.act_window,name:user_log_view.action_user_log
+#: model_terms:ir.ui.view,arch_db:user_log_view.res_users_view_form
+msgid "Authentication logs"
+msgstr "Журнали автентифікації"
+
+#. module: user_log_view
+#: model_terms:ir.ui.view,arch_db:user_log_view.res_users_log_view_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: user_log_view
+#: model_terms:ir.ui.view,arch_db:user_log_view.res_users_log_view_search
+msgid "Test Search"
+msgstr "Тестовий пошук"

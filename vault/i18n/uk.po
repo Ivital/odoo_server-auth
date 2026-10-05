@@ -421,3 +421,283 @@ msgstr "Попередження"
 #: model:ir.model.fields,field_description:vault.field_vault_right__perm_write
 msgid "Write"
 msgstr "Запис"
+
+#. module: vault
+#: model:ir.model.fields,field_description:vault.field_vault_inbox__accesses
+msgid "Access counter"
+msgstr "Лічильник доступу"
+
+#. module: vault
+#: model:ir.model.fields,field_description:vault.field_vault__allowed_create
+#: model:ir.model.fields,field_description:vault.field_vault_abstract_field__allowed_create
+#: model:ir.model.fields,field_description:vault.field_vault_entry__allowed_create
+#: model:ir.model.fields,field_description:vault.field_vault_field__allowed_create
+#: model:ir.model.fields,field_description:vault.field_vault_file__allowed_create
+#: model:ir.model.fields,field_description:vault.field_vault_right__allowed_create
+msgid "Allowed Create"
+msgstr "Дозволено створення"
+
+#. module: vault
+#: model:ir.model.fields,field_description:vault.field_vault__allowed_delete
+#: model:ir.model.fields,field_description:vault.field_vault_abstract_field__allowed_delete
+#: model:ir.model.fields,field_description:vault.field_vault_entry__allowed_delete
+#: model:ir.model.fields,field_description:vault.field_vault_field__allowed_delete
+#: model:ir.model.fields,field_description:vault.field_vault_file__allowed_delete
+#: model:ir.model.fields,field_description:vault.field_vault_right__allowed_delete
+msgid "Allowed Delete"
+msgstr "Дозволено видалення"
+
+#. module: vault
+#: model:ir.model.fields,field_description:vault.field_vault__allowed_share
+#: model:ir.model.fields,field_description:vault.field_vault_abstract_field__allowed_share
+#: model:ir.model.fields,field_description:vault.field_vault_entry__allowed_share
+#: model:ir.model.fields,field_description:vault.field_vault_field__allowed_share
+#: model:ir.model.fields,field_description:vault.field_vault_file__allowed_share
+#: model:ir.model.fields,field_description:vault.field_vault_right__allowed_share
+msgid "Allowed Share"
+msgstr "Дозволено поширення"
+
+#. module: vault
+#: model:ir.model.fields,field_description:vault.field_vault__allowed_write
+#: model:ir.model.fields,field_description:vault.field_vault_abstract_field__allowed_write
+#: model:ir.model.fields,field_description:vault.field_vault_entry__allowed_write
+#: model:ir.model.fields,field_description:vault.field_vault_field__allowed_write
+#: model:ir.model.fields,field_description:vault.field_vault_file__allowed_write
+#: model:ir.model.fields,field_description:vault.field_vault_right__allowed_write
+msgid "Allowed Write"
+msgstr "Дозволено запис"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_right_overview_search
+msgid "By user"
+msgstr "За користувачем"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_right_overview_search
+msgid "By vault"
+msgstr "За сховищем"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/templates.xml:0
+#: model_terms:ir.ui.view,arch_db:vault.view_users_form_keys_modif
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_import_wizard
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_send_wizard
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_store_wizard
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_export_wizard
+msgid "Close"
+msgstr "Закрити"
+
+#. module: vault
+#: model:ir.model.fields,field_description:vault.field_vault_abstract_field__entry_name
+#: model:ir.model.fields,field_description:vault.field_vault_entry__complete_name
+#: model:ir.model.fields,field_description:vault.field_vault_field__entry_name
+#: model:ir.model.fields,field_description:vault.field_vault_file__entry_name
+msgid "Complete Name"
+msgstr "Повна назва"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/controller.esm.js:0
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#. module: vault
+#: model:ir.model.fields,field_description:vault.field_vault_import_wizard__crypted_content
+msgid "Crypted Content"
+msgstr "Зашифрований вміст"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/controller.esm.js:0
+msgid "Discard"
+msgstr "Відкинути"
+
+#. module: vault
+#: model:ir.model.fields,field_description:vault.field_res_config_settings__group_vault_export
+msgid "Export Vaults"
+msgstr "Експортувати сховища"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/models/vault.py:0
+#: code:addons/vault/models/vault_entry.py:0
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_entry_form
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_form
+msgid "Export to file"
+msgstr "Експортувати у файл"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.inbox
+msgid "File to share:"
+msgstr "Файл для поширення:"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/fields/templates.xml:0
+msgid "Generate"
+msgstr "Згенерувати"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_right_overview_search
+msgid "Grouped"
+msgstr "Згруповано"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/fields/templates.xml:0
+msgid "Hide"
+msgstr "Приховати"
+
+#. module: vault
+#: model:ir.model.fields,field_description:vault.field_res_config_settings__group_vault_import
+msgid "Import Vaults"
+msgstr "Імпортувати сховища"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/models/vault.py:0
+#: code:addons/vault/models/vault_entry.py:0
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_entry_form
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_form
+msgid "Import from file"
+msgstr "Імпортувати з файлу"
+
+#. module: vault
+#: model:ir.model.fields,field_description:vault.field_res_users__inbox_enabled
+msgid "Inbox Enabled"
+msgstr "Вхідні ввімкнено"
+
+#. module: vault
+#: model:ir.model.fields,field_description:vault.field_vault_export_wizard__include_childs
+msgid "Include Childs"
+msgstr "Включати дочірні"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/models/vault_log.py:0
+msgid "Information"
+msgstr "Інформація"
+
+#. module: vault
+#: model:ir.model.fields,field_description:vault.field_res_users_key__write_uid
+#: model:ir.model.fields,field_description:vault.field_vault__write_uid
+#: model:ir.model.fields,field_description:vault.field_vault_entry__write_uid
+#: model:ir.model.fields,field_description:vault.field_vault_export_wizard__write_uid
+#: model:ir.model.fields,field_description:vault.field_vault_field__write_uid
+#: model:ir.model.fields,field_description:vault.field_vault_file__write_uid
+#: model:ir.model.fields,field_description:vault.field_vault_import_wizard__write_uid
+#: model:ir.model.fields,field_description:vault.field_vault_import_wizard_path__write_uid
+#: model:ir.model.fields,field_description:vault.field_vault_inbox__write_uid
+#: model:ir.model.fields,field_description:vault.field_vault_inbox_log__write_uid
+#: model:ir.model.fields,field_description:vault.field_vault_log__write_uid
+#: model:ir.model.fields,field_description:vault.field_vault_right__write_uid
+#: model:ir.model.fields,field_description:vault.field_vault_send_wizard__write_uid
+#: model:ir.model.fields,field_description:vault.field_vault_store_wizard__write_uid
+#: model:ir.model.fields,field_description:vault.field_vault_tag__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: vault
+#: model:ir.model.fields,field_description:vault.field_res_users_key__write_date
+#: model:ir.model.fields,field_description:vault.field_vault__write_date
+#: model:ir.model.fields,field_description:vault.field_vault_entry__write_date
+#: model:ir.model.fields,field_description:vault.field_vault_export_wizard__write_date
+#: model:ir.model.fields,field_description:vault.field_vault_field__write_date
+#: model:ir.model.fields,field_description:vault.field_vault_file__write_date
+#: model:ir.model.fields,field_description:vault.field_vault_import_wizard__write_date
+#: model:ir.model.fields,field_description:vault.field_vault_import_wizard_path__write_date
+#: model:ir.model.fields,field_description:vault.field_vault_inbox__write_date
+#: model:ir.model.fields,field_description:vault.field_vault_inbox_log__write_date
+#: model:ir.model.fields,field_description:vault.field_vault_log__write_date
+#: model:ir.model.fields,field_description:vault.field_vault_right__write_date
+#: model:ir.model.fields,field_description:vault.field_vault_send_wizard__write_date
+#: model:ir.model.fields,field_description:vault.field_vault_store_wizard__write_date
+#: model:ir.model.fields,field_description:vault.field_vault_tag__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: vault
+#: model:ir.actions.act_window,name:vault.action_res_users_keys
+msgid "Manage my keys"
+msgstr "Керувати моїми ключами"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_users_form_keys_modif
+msgid "New inbox link"
+msgstr "Нове посилання вхідних"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_users_form_keys_modif
+msgid "New private key"
+msgstr "Новий приватний ключ"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_entry_search
+msgid "Not Expired"
+msgstr "Не прострочено"
+
+#. module: vault
+#: model:ir.model.fields,field_description:vault.field_vault_import_wizard__parent_id
+msgid "Parent Entry"
+msgstr "Батьківське проведення"
+
+#. module: vault
+#: model:ir.model.fields,field_description:vault.field_vault_import_wizard__path
+msgid "Path to import"
+msgstr "Шлях для імпорту"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_form
+msgid "Re-encrypt"
+msgstr "Перешифрувати"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_send_wizard
+msgid "Send"
+msgstr "Надіслати"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/fields/templates.xml:0
+msgid "Show"
+msgstr "Показати"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_store_wizard
+msgid "Store"
+msgstr "Магазин"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.inbox
+msgid "Submit secret"
+msgstr "Надіслати секрет"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.res_config_settings_view_form
+msgid "Vault Share"
+msgstr "Спільний доступ до сховища"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_entry_search
+msgid "Vaults"
+msgstr "Сховища секретів"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_form
+msgid "Verify"
+msgstr "Перевірити"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_entry_search
+msgid "With Content"
+msgstr "З вмістом"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_entry_search
+msgid "Without Content"
+msgstr "Без вмісту"

@@ -1,0 +1,39 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 10:13+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: auth_totp_enforce
+#: model_terms:ir.ui.view,arch_db:auth_totp_enforce.auth_totp_setup_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: auth_totp_enforce
+#: model_terms:ir.ui.view,arch_db:auth_totp_enforce.auth_totp_setup_form
+msgid "Cannot scan it?"
+msgstr "Не вдається сканувати?"
+
+#. module: auth_totp_enforce
+#: model_terms:ir.ui.view,arch_db:auth_totp_enforce.auth_totp_setup_form
+msgid "QR Code"
+msgstr "QR-код"
+
+#. module: auth_totp_enforce
+#: model_terms:ir.ui.view,arch_db:auth_totp_enforce.auth_totp_setup_form
+msgid "Set up MFA"
+msgstr "Налаштувати MFA"
+
+#. module: auth_totp_enforce
+#: model_terms:ir.ui.view,arch_db:auth_totp_enforce.auth_totp_setup_form
+msgid "e.g. 123456"
+msgstr "напр., 123456"

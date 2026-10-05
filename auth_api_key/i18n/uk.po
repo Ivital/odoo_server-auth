@@ -58,3 +58,19 @@ msgstr "Назва"
 #: model:ir.model.fields,field_description:auth_api_key.field_auth_api_key__user_id
 msgid "User"
 msgstr "Користувач"
+
+#. module: auth_api_key
+#: model:ir.model.fields,field_description:auth_api_key.field_res_company__archived_user_disable_auth_api_key
+#: model:ir.model.fields,field_description:auth_api_key.field_res_config_settings__archived_user_disable_auth_api_key
+msgid "Disable API key for archived user"
+msgstr "Вимкнути ключ API для архівованого користувача"
+
+#. module: auth_api_key
+#: model:ir.model.fields,field_description:auth_api_key.field_auth_api_key__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: auth_api_key
+#: model:ir.model.fields,field_description:auth_api_key.field_auth_api_key__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

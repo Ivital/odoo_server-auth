@@ -97,3 +97,40 @@ msgstr "Токен"
 #: model:ir.model.fields,field_description:vault_share.field_vault_share__user_id
 msgid "User"
 msgstr "Користувач"
+
+#. module: vault_share
+#: model:ir.model.fields,field_description:vault_share.field_vault_share__accesses
+msgid "Access counter"
+msgstr "Лічильник доступу"
+
+#. module: vault_share
+#: model:ir.model.fields,field_description:vault_share.field_res_config_settings__vault_share_delay
+msgid "Delayed Deletion"
+msgstr "Відкладене видалення"
+
+#. module: vault_share
+#: model_terms:ir.ui.view,arch_db:vault_share.share
+msgid "Enter the pin:"
+msgstr "Введіть PIN:"
+
+#. module: vault_share
+#: model:ir.model.fields,field_description:vault_share.field_vault_share__write_uid
+#: model:ir.model.fields,field_description:vault_share.field_vault_share_log__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: vault_share
+#: model:ir.model.fields,field_description:vault_share.field_vault_share__write_date
+#: model:ir.model.fields,field_description:vault_share.field_vault_share_log__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: vault_share
+#: model_terms:ir.ui.view,arch_db:vault_share.share
+msgid "Shared file:"
+msgstr "Спільний файл:"
+
+#. module: vault_share
+#: model_terms:ir.ui.view,arch_db:vault_share.share
+msgid "Shared secret:"
+msgstr "Спільний секрет:"

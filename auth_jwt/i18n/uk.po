@@ -88,3 +88,68 @@ msgstr "Статичний користувач"
 #: model_terms:ir.ui.view,arch_db:auth_jwt.view_auth_jwt_validator_form
 msgid "User"
 msgstr "Користувач"
+
+#. module: auth_jwt
+#: model_terms:ir.ui.view,arch_db:auth_jwt.view_auth_jwt_validator_form
+msgid "Algorithm"
+msgstr "Алгоритм"
+
+#. module: auth_jwt
+#: model:ir.model.fields,field_description:auth_jwt.field_auth_jwt_validator__cookie_enabled
+msgid "Cookie Enabled"
+msgstr "Cookie увімкнено"
+
+#. module: auth_jwt
+#: model:ir.model.fields,field_description:auth_jwt.field_auth_jwt_validator__cookie_max_age
+msgid "Cookie Max Age"
+msgstr "Максимальний вік cookie"
+
+#. module: auth_jwt
+#: model:ir.model.fields,field_description:auth_jwt.field_auth_jwt_validator__cookie_secure
+msgid "Cookie Secure"
+msgstr "Захищені cookie"
+
+#. module: auth_jwt
+#: model:ir.model.fields.selection,name:auth_jwt.selection__auth_jwt_validator__partner_id_strategy__email
+msgid "From email claim"
+msgstr "З email claim"
+
+#. module: auth_jwt
+#: model_terms:ir.ui.view,arch_db:auth_jwt.view_auth_jwt_validator_form
+msgid "General"
+msgstr "Загальний"
+
+#. module: auth_jwt
+#: model:ir.model.fields,field_description:auth_jwt.field_auth_jwt_validator__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: auth_jwt
+#: model:ir.model.fields,field_description:auth_jwt.field_auth_jwt_validator__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: auth_jwt
+#: model:ir.model.fields,field_description:auth_jwt.field_auth_jwt_validator__next_validator_id
+msgid "Next Validator"
+msgstr "Наступний валідатор"
+
+#. module: auth_jwt
+#: model:ir.model.fields.selection,name:auth_jwt.selection__auth_jwt_validator__signature_type__public_key
+msgid "Public key"
+msgstr "Відкритий ключ"
+
+#. module: auth_jwt
+#: model:ir.model.fields,field_description:auth_jwt.field_auth_jwt_validator__signature_type
+msgid "Signature Type"
+msgstr "Тип підпису"
+
+#. module: auth_jwt
+#: model:ir.model.fields.selection,name:auth_jwt.selection__auth_jwt_validator__user_id_strategy__static
+msgid "Static"
+msgstr "Статичний"
+
+#. module: auth_jwt
+#: model_terms:ir.ui.view,arch_db:auth_jwt.view_auth_jwt_validator_form
+msgid "arch"
+msgstr "архітектура"

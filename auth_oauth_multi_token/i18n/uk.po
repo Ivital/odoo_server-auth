@@ -33,3 +33,28 @@ msgstr "Відображувана назва"
 #: model:ir.model.fields,field_description:auth_oauth_multi_token.field_auth_oauth_multi_token__user_id
 msgid "User"
 msgstr "Користувач"
+
+#. module: auth_oauth_multi_token
+#: model_terms:ir.ui.view,arch_db:auth_oauth_multi_token.view_users_form
+msgid "Clear Tokens"
+msgstr "Очистити токени"
+
+#. module: auth_oauth_multi_token
+#: model:ir.model.fields,field_description:auth_oauth_multi_token.field_auth_oauth_multi_token__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: auth_oauth_multi_token
+#: model:ir.model.fields,field_description:auth_oauth_multi_token.field_auth_oauth_multi_token__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: auth_oauth_multi_token
+#: model_terms:ir.ui.view,arch_db:auth_oauth_multi_token.view_users_form
+msgid "Latest Tokens"
+msgstr "Останні токени"
+
+#. module: auth_oauth_multi_token
+#: model:ir.model.fields,field_description:auth_oauth_multi_token.field_res_users__oauth_access_token_ids
+msgid "OAuth Tokens"
+msgstr "Токени OAuth"

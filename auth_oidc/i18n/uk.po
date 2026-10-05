@@ -32,3 +32,23 @@ msgstr "Карта токенів"
 #: model:ir.model.fields,field_description:auth_oidc.field_auth_oauth_provider__token_endpoint
 msgid "Token URL"
 msgstr "URL токена"
+
+#. module: auth_oidc
+#: model:ir.model.fields,field_description:auth_oidc.field_auth_oauth_provider__client_secret
+msgid "Client Secret"
+msgstr "Секрет клієнта"
+
+#. module: auth_oidc
+#: model:ir.model.fields,field_description:auth_oidc.field_auth_oauth_provider__code_verifier
+msgid "Code Verifier"
+msgstr "Верифікатор коду"
+
+#. module: auth_oidc
+#: model:ir.model.fields,field_description:auth_oidc.field_auth_oauth_provider__end_session_endpoint
+msgid "End Session URL"
+msgstr "URL завершення сеансу"
+
+#. module: auth_oidc
+#: model:ir.model.fields,field_description:auth_oidc.field_auth_oauth_provider__validation_endpoint
+msgid "UserInfo URL"
+msgstr "URL UserInfo"
