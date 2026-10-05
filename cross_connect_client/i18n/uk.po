@@ -140,3 +140,27 @@ msgstr "Меню для відображення сервера Cross Connect"
 #: model:ir.model.fields,help:cross_connect_client.field_cross_connect_server__name
 msgid "This name will be used for the new created app"
 msgstr "Ця назва використовуватиметься для нового створеного застосунку"
+
+#. module: cross_connect_client
+#. odoo-python
+#: code:addons/cross_connect_client/models/cross_connect_server.py:0
+msgid "Missing token"
+msgstr "Відсутній токен"
+
+#. module: cross_connect_client
+#. odoo-python
+#: code:addons/cross_connect_client/controllers/cross_connect.py:0
+msgid "Server not found"
+msgstr "Сервер не знайдено"
+
+#. module: cross_connect_client
+#. odoo-python
+#: code:addons/cross_connect_client/models/cross_connect_server.py:0
+msgid "User email is required"
+msgstr "Потрібна електронна адреса користувача"
+
+#. module: cross_connect_client
+#. odoo-python
+#: code:addons/cross_connect_client/models/cross_connect_server.py:0
+msgid "You are not allowed to access this server"
+msgstr "Вам не дозволено доступ до цього сервера"

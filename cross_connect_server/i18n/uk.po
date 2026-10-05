@@ -173,3 +173,15 @@ msgstr "ID користувача клієнта cross-connect."
 #: model:ir.model.fields,help:cross_connect_server.field_cross_connect_client__user_ids
 msgid "The users created by this cross connection."
 msgstr "Користувачі, створені цим cross-connect."
+
+#. module: cross_connect_server
+#. odoo-python
+#: code:addons/cross_connect_server/routers/cross_connect.py:0
+msgid "Client not found"
+msgstr "Клієнта не знайдено"
+
+#. module: cross_connect_server
+#. odoo-python
+#: code:addons/cross_connect_server/models/cross_connect_client.py:0
+msgid "You are not allowed to access this endpoint."
+msgstr "Вам не дозволено доступ до цієї кінцевої точки."

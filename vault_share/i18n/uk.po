@@ -201,3 +201,46 @@ msgstr "Журнал спільного доступу до сховища"
 #: model:ir.model,name:vault_share.model_vault_share
 msgid "Vault share outgoing secrets"
 msgstr "Вихідні секрети спільного доступу до сховища"
+
+#. module: vault_share
+#. odoo-javascript
+#: code:addons/vault_share/static/src/backend/fields/vault_field.esm.js:0
+msgid "Share the secret"
+msgstr "Поділитися секретом"
+
+#. module: vault_share
+#. odoo-javascript
+#: code:addons/vault_share/static/src/backend/fields/templates.xml:0
+msgid "Share the secret with an external user"
+msgstr "Надати зовнішньому користувачу доступ до секрету"
+
+#. module: vault_share
+#. odoo-python
+#: code:addons/vault_share/controllers/main.py:0
+msgid "The secret expired"
+msgstr "Термін дії секрету минув"
+
+#. module: vault_share
+#. odoo-python
+#: code:addons/vault_share/models/vault_share.py:0
+msgid "The share was accessed by %(name)s via %(ip)s"
+msgstr "До спільного ресурсу звертався %(name)s з %(ip)s"
+
+#. module: vault_share
+#. odoo-python
+#: code:addons/vault_share/models/vault_share.py:0
+msgid "The share was created by %(name)s"
+msgstr "Спільний доступ створив %(name)s"
+
+#. module: vault_share
+#. odoo-javascript
+#: code:addons/vault_share/static/src/backend/fields/vault_pin_field.esm.js:0
+msgid "Vault Pin Field"
+msgstr "Поле PIN сховища"
+
+#. module: vault_share
+#. odoo-javascript
+#: code:addons/vault_share/static/src/backend/fields/vault_share_field.esm.js:0
+#: code:addons/vault_share/static/src/backend/fields/vault_share_file.esm.js:0
+msgid "Vault Share Field"
+msgstr "Поле спільного доступу Vault"

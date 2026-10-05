@@ -69,3 +69,9 @@ msgstr "Ви впевнені, що хочете очистити пароль �
 #: model:ir.model,name:base_user_empty_password.model_empty_password_wizard
 msgid "Empty Password Wizard"
 msgstr "Майстер порожнього пароля"
+
+#. module: base_user_empty_password
+#. odoo-python
+#: code:addons/base_user_empty_password/wizard/empty_password.py:0
+msgid "This can only be used on users."
+msgstr "Це можна використовувати лише для користувачів."

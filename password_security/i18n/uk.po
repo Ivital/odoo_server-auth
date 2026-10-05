@@ -73,7 +73,7 @@ msgstr ""
 #: code:addons/password_security/models/res_users.py:0
 #, python-format
 msgid "Cannot use the most recent %d passwords"
-msgstr ""
+msgstr "Не можна використовувати останні %d паролів"
 
 #. module: password_security
 #: model:ir.model,name:password_security.model_res_company
@@ -205,7 +205,7 @@ msgstr "Мінімальна кількість великих літер"
 #: code:addons/password_security/models/res_users.py:0
 #, python-format
 msgid "Must contain the following:"
-msgstr ""
+msgstr "Має містити таке:"
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_company__password_numeric
@@ -233,7 +233,7 @@ msgstr "Пароль спливає через"
 #: code:addons/password_security/models/res_users.py:0
 #, python-format
 msgid "Password must be %d characters or more."
-msgstr ""
+msgstr "Пароль має містити щонайменше %d символів."
 
 #. module: password_security
 #. odoo-python
@@ -243,6 +243,8 @@ msgid ""
 "Passwords can only be reset every %d hour(s). Please contact an "
 "administrator for assistance."
 msgstr ""
+"Пароль можна скидати лише раз на %d годин(и). Зверніться до адміністратора "
+"по допомогу."
 
 #. module: password_security
 #: model:ir.model.fields,help:password_security.field_res_company__password_lower

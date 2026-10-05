@@ -11,4 +11,12 @@ msgstr ""
 #. module: auth_admin_passkey
 #: model:ir.module.module,summary:base.module_auth_admin_passkey
 msgid "Allows system administrator to authenticate with any account"
-msgstr "Дозволяє системному адміністратору автентифікуватися під будь-яким обліковим записом"
+msgstr ""
+"Дозволяє системному адміністратору автентифікуватися під будь-яким обліковим"
+" записом"
+
+#. module: auth_admin_passkey
+#. odoo-python
+#: code:addons/auth_admin_passkey/models/res_users.py:0
+msgid "Passkey used"
+msgstr "Використано ключ доступу"

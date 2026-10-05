@@ -114,3 +114,9 @@ msgid ""
 msgstr ""
 "Користувач, який використовується для обробки запитів, автентифікованих\n"
 "        за API-ключем"
+
+#. module: auth_api_key
+#. odoo-python
+#: code:addons/auth_api_key/models/auth_api_key.py:0
+msgid "User is not allowed"
+msgstr "Користувач не має дозволу"

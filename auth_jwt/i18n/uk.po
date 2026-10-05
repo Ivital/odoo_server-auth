@@ -233,3 +233,25 @@ msgstr "Встановлюйте false лише для розробки без H
 #: model:ir.model.fields,help:auth_jwt.field_auth_jwt_validator__issuer
 msgid "To validate iss."
 msgstr "До перевірки проблеми"
+
+#. module: auth_jwt
+#. odoo-python
+#: code:addons/auth_jwt/models/auth_jwt_validator.py:0
+msgid ""
+"A cookie name must be provided on JWT validator %s because it has cookie "
+"mode enabled."
+msgstr ""
+"Для JWT-валідатора %s потрібно вказати назву cookie, оскільки ввімкнено "
+"режим cookie."
+
+#. module: auth_jwt
+#. odoo-python
+#: code:addons/auth_jwt/models/auth_jwt_validator.py:0
+msgid "Name %r is not a valid python identifier."
+msgstr "Назва %r не є дійсним ідентифікатором Python."
+
+#. module: auth_jwt
+#. odoo-python
+#: code:addons/auth_jwt/models/auth_jwt_validator.py:0
+msgid "Validators mustn't make a closed chain: {}."
+msgstr "Валідатори не повинні утворювати замкнений ланцюг: {}."

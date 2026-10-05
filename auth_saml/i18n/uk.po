@@ -458,3 +458,44 @@ msgstr "Чи потрібно підписувати метадані"
 #: model:ir.model.fields,help:auth_saml.field_auth_saml_provider__sign_authenticate_requests
 msgid "Whether the request should be signed or not"
 msgstr "Чи потрібно підписувати запит"
+
+#. module: auth_saml
+#. odoo-python
+#: code:addons/auth_saml/controllers/main.py:0
+msgid "Access Denied"
+msgstr "Доступ заборонено"
+
+#. module: auth_saml
+#. odoo-python
+#: code:addons/auth_saml/controllers/main.py:0
+msgid "Missing parameters"
+msgstr "Відсутні параметри"
+
+#. module: auth_saml
+#. odoo-python
+#: code:addons/auth_saml/controllers/main.py:0
+msgid "Sign up is not allowed on this database."
+msgstr "Реєстрацію в цій базі даних заборонено."
+
+#. module: auth_saml
+#. odoo-python
+#: code:addons/auth_saml/models/res_users.py:0
+msgid ""
+"This database disallows users to have both passwords and SAML IDs. Error for"
+" logins %s"
+msgstr ""
+"Ця база даних забороняє користувачам одночасно мати паролі та SAML ID. "
+"Помилка для логінів %s"
+
+#. module: auth_saml
+#. odoo-python
+#: code:addons/auth_saml/controllers/main.py:0
+msgid "Unknown provider"
+msgstr "Невідомий провайдер"
+
+#. module: auth_saml
+#. odoo-python
+#: code:addons/auth_saml/controllers/main.py:0
+msgid "You do not have access to this database. Please contact support."
+msgstr ""
+"У вас немає доступу до цієї бази даних. Зверніться до служби підтримки."

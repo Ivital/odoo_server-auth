@@ -968,3 +968,304 @@ msgstr "Майстер збереження спільного секрету у
 #: model:ir.model,name:vault.model_vault_send_wizard
 msgid "Wizard to send another user a secret"
 msgstr "Майстер надсилання секрету іншому користувачу"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/models/vault_entry.py:0
+msgid "%(action)s entry %(name)s by %(user)s"
+msgstr "Запис %(action)s %(name)s користувачем %(user)s"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/controller.esm.js:0
+msgid ""
+"A secure browser context is required. Please switch to https or contact your"
+" administrator"
+msgstr ""
+"Потрібен захищений контекст браузера. Перейдіть на https або зверніться до "
+"адміністратора"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/controllers/main.py:0
+msgid "An error occured. Please contact the user or administrator"
+msgstr "Сталася помилка. Зверніться до користувача або адміністратора"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/templates.xml:0
+msgid "Characters:"
+msgstr "Символи:"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/templates.xml:0
+msgid "Confirm your password:"
+msgstr "Підтвердьте пароль:"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/fields/templates.xml:0
+msgid "Copy to clipboard"
+msgstr "Копіювати до буфера обміну"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/models/vault_inbox.py:0
+msgid "Created by %(name)s via %(ip)s"
+msgstr "Створено %(name)s через %(ip)s"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/wizards/vault_send_wizard.py:0
+msgid "Created by %s"
+msgstr "Створено %s"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/controller.esm.js:0
+msgid "Do you really want to create a new key pair and set it active?"
+msgstr "Ви справді хочете створити нову пару ключів і зробити її активною?"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/templates.xml:0
+msgid "Enter your password:"
+msgstr "Введіть пароль:"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/vault.esm.js:0
+msgid "Failed to export keys to object store"
+msgstr "Не вдалося експортувати ключі до сховища об’єктів"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/vault.esm.js:0
+msgid "Failed to export the keys to the database"
+msgstr "Не вдалося експортувати ключі до бази даних"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/vault.esm.js:0
+msgid "Failed to import keys from database"
+msgstr "Не вдалося імпортувати ключі з бази даних"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/templates.xml:0
+msgid "Generate a new secret:"
+msgstr "Згенерувати новий секрет:"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/wizards/vault_import_wizard.py:0
+msgid "Invalid file to import from"
+msgstr "Недійсний файл для імпорту"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/user_menu.esm.js:0
+msgid "Key Management"
+msgstr "Керування ключами"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/templates.xml:0
+msgid "Keyfile:"
+msgstr "Файл ключа:"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/templates.xml:0
+msgid "Length:"
+msgstr "Довжина:"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/controllers/main.py:0
+msgid "Missing filename"
+msgstr "Відсутня назва файлу"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/common/vault_utils_service.esm.js:0
+msgid "Missing password"
+msgstr "Відсутній пароль"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/wizards/vault_send_wizard.py:0
+msgid "Neither a secret nor file was given"
+msgstr "Не надано ні секрету, ні файлу"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/controllers/main.py:0
+msgid "No secret found"
+msgstr "Секрет не знайдено"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/templates.xml:0
+msgid "Password:"
+msgstr "Пароль:"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/export.esm.js:0
+#: code:addons/vault/static/src/backend/import.esm.js:0
+msgid "Please enter the password for the database"
+msgstr "Введіть пароль до бази даних"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/import.esm.js:0
+msgid "Please enter the password for the keepass database"
+msgstr "Введіть пароль до бази даних KeePass"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/vault.esm.js:0
+msgid "Please enter the password for your private key"
+msgstr "Введіть пароль для свого приватного ключа"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/templates.xml:0
+msgid "Please enter your password or upload a keyfile:"
+msgstr "Введіть пароль або завантажте файл ключа:"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/controllers/main.py:0
+msgid "Please specify a name"
+msgstr "Вкажіть назву"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/common/vault_utils_service.esm.js:0
+msgid "Select at least one character set"
+msgstr "Виберіть хоча б один набір символів"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/fields/templates.xml:0
+msgid "Send the secret to an user"
+msgstr "Надішліть секрет користувачу"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/fields/vault_mixin.esm.js:0
+msgid "Send the secret to another user"
+msgstr "Надіслати секрет іншому користувачу"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/controllers/main.py:0
+msgid "Something went wrong with the encryption"
+msgstr "Щось пішло не так під час шифрування"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/fields/vault_inbox_mixin.esm.js:0
+msgid "Store the secret in a vault"
+msgstr "Зберегти секрет у сховищі"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/controllers/main.py:0
+msgid "Successfully stored"
+msgstr "Успішно збережено"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/fields/vault_export_file.esm.js:0
+#: code:addons/vault/static/src/backend/fields/vault_file.esm.js:0
+msgid "The field is empty, there's nothing to save!"
+msgstr "Поле порожнє, зберігати нічого!"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/controller.esm.js:0
+msgid "The following entries are broken:"
+msgstr "Пошкоджені такі записи:"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/common/vault_utils_service.esm.js:0
+msgid "The passwords aren't matching"
+msgstr "Паролі не збігаються"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/models/abstract_vault.py:0
+msgid ""
+"The requested operation can not be completed due to security restrictions."
+msgstr "Запитану операцію неможливо завершити через обмеження безпеки."
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/import.esm.js:0
+msgid "Unsupported file to import"
+msgstr "Непідтримуваний файл для імпорту"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/templates.xml:0
+msgid "Use password"
+msgstr "Використати пароль"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/fields/vault_field.esm.js:0
+msgid "Vault Field"
+msgstr "Поле сховища"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/fields/vault_file.esm.js:0
+msgid "Vault File"
+msgstr "Файл сховища"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/fields/vault_inbox_field.esm.js:0
+msgid "Vault Inbox Field"
+msgstr "Поле вхідних сховища"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/fields/vault_inbox_file.esm.js:0
+msgid "Vault Inbox File"
+msgstr "Файл вхідних сховища"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/fields/vault_export_file.esm.js:0
+msgid "Vault export file"
+msgstr "Файл експорту сховища"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/controller.esm.js:0
+msgid "Vault is not supported"
+msgstr "Сховище не підтримується"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/models/vault_inbox.py:0
+msgid "Written by %(name)s via %(ip)s"
+msgstr "Записано %(name)s через %(ip)s"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/models/vault_entry.py:0
+msgid "You can not create recursive entries."
+msgstr "Ви не можете створювати рекурсивні записи."
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/controller.esm.js:0
+msgid "of entry"
+msgstr "запису"

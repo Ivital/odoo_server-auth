@@ -81,3 +81,9 @@ msgstr "Звільнено від обов’язкового 2FA"
 #: model:res.groups,comment:auth_totp_enforce.group_mfa_exempt
 msgid "Members of this group are NOT forced to configure MFA at login."
 msgstr "Члени цієї групи НЕ зобов’язані налаштовувати MFA під час входу."
+
+#. module: auth_totp_enforce
+#. odoo-python
+#: code:addons/auth_totp_enforce/controllers/home.py:0
+msgid "Verification failed, please double-check the 6-digit code"
+msgstr "Перевірка не пройшла, ще раз перевірте 6-значний код"

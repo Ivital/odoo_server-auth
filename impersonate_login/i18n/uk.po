@@ -120,3 +120,36 @@ msgstr "Журнали входу від імені користувача"
 #: model:res.groups,name:impersonate_login.group_impersonate_login
 msgid "Impersonate Users"
 msgstr "Вхід від імені користувачів"
+
+#. module: impersonate_login
+#. odoo-javascript
+#: code:addons/impersonate_login/static/src/js/user_menu.esm.js:0
+msgid "Back to Original User"
+msgstr "Назад до початкового користувача"
+
+#. module: impersonate_login
+#. odoo-python
+#: code:addons/impersonate_login/models/res_users.py:0
+msgid "It's you."
+msgstr "Це ви."
+
+#. module: impersonate_login
+#. odoo-python
+#: code:addons/impersonate_login/models/mail_message.py:0
+msgid "Logged in as {}"
+msgstr "Вхід виконано як {}"
+
+#. module: impersonate_login
+#. odoo-python
+#: code:addons/impersonate_login/models/res_users.py:0
+msgid "You are already Logged as another user."
+msgstr "Ви вже увійшли як інший користувач."
+
+#. module: impersonate_login
+#. odoo-python
+#: code:addons/impersonate_login/models/res_users.py:0
+msgid ""
+"You cannot impersonate users with 'Administration: Settings' access rights."
+msgstr ""
+"Не можна діяти від імені користувачів із правами доступу «Адміністрування: "
+"Налаштування»."
