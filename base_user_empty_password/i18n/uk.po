@@ -59,3 +59,8 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:base_user_empty_password.field_empty_password_wizard__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: base_user_empty_password
+#: model_terms:ir.ui.view,arch_db:base_user_empty_password.empty_password_wizard_view
+msgid "Are you sure you want to empty password of selected users?"
+msgstr "Ви впевнені, що хочете очистити пароль вибраних користувачів?"

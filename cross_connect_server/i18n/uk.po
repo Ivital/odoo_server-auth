@@ -79,3 +79,28 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:cross_connect_server.field_cross_connect_client__server_env_defaults
 msgid "Server Env Defaults"
 msgstr "Типові значення серверного середовища"
+
+#. module: cross_connect_server
+#: model:ir.model.fields,field_description:cross_connect_server.field_cross_connect_client__bypass_user_mail_re
+msgid "Bypass Users Email Regexes"
+msgstr "Обходити регулярні вирази email користувачів"
+
+#. module: cross_connect_server
+#: model:ir.model.fields,field_description:cross_connect_server.field_fastapi_endpoint__cross_connect_client_ids
+msgid "Cross Connect Clients"
+msgstr "Клієнти Cross Connect"
+
+#. module: cross_connect_server
+#: model_terms:ir.ui.view,arch_db:cross_connect_server.fastapi_endpoint_form_view
+msgid "Cross Connect Configuration"
+msgstr "Конфігурація Cross Connect"
+
+#. module: cross_connect_server
+#: model:ir.model.fields.selection,name:cross_connect_server.selection__fastapi_endpoint__app__cross_connect
+msgid "Cross Connect Endpoint"
+msgstr "Кінцева точка Cross Connect"
+
+#. module: cross_connect_server
+#: model:ir.model.fields,field_description:cross_connect_server.field_cross_connect_client__user_count
+msgid "Cross Connected User Count"
+msgstr "Кількість користувачів із перехресним з’єднанням"

@@ -82,3 +82,22 @@ msgstr "Обмежити вхід від імені користувачів «�
 #: model_terms:ir.ui.view,arch_db:impersonate_login.impersonate_res_users_tree
 msgid "Switch Login"
 msgstr "Перемкнути вхід"
+
+#. module: impersonate_login
+#: model:ir.actions.act_window,name:impersonate_login.impersonate_log_action
+msgid "Impersonate Login Logs"
+msgstr "Журнали входу з імперсонацією"
+
+#. module: impersonate_login
+#: model_terms:ir.ui.view,arch_db:impersonate_login.view_res_config_settings_impersonate
+msgid "Impersonation Login"
+msgstr "Вхід через уособлення"
+
+#. module: impersonate_login
+#: model_terms:ir.ui.view,arch_db:impersonate_login.view_res_config_settings_impersonate
+msgid ""
+"Prevents impersonating users that have the 'Administration: Settings' access"
+" rights."
+msgstr ""
+"Забороняє видавати себе за користувачів із правами доступу «Адміністрування:"
+" Налаштування»."

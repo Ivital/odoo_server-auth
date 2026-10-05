@@ -701,3 +701,85 @@ msgstr "З вмістом"
 #: model_terms:ir.ui.view,arch_db:vault.view_vault_entry_search
 msgid "Without Content"
 msgstr "Без вмісту"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.res_config_settings_view_form
+msgid "Allow all users to export vaults accessible to them"
+msgstr "Дозволити всім користувачам експортувати доступні їм сховища"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.res_config_settings_view_form
+msgid "Allow all users to import vaults accessible to them"
+msgstr "Дозволити всім користувачам імпортувати доступні їм сховища"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.res_config_settings_view_form
+msgid "Allow the usage to share secrets with external users"
+msgstr "Дозволити ділитися секретами із зовнішніми користувачами"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_import_wizard
+msgid "Custom JSON format <b>.json</b>"
+msgstr "Власний формат JSON <b>.json</b>"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_users_form_keys_modif
+msgid "Invalidate private key"
+msgstr "Анулювати приватний ключ"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_import_wizard
+msgid "Keepass Database <b>.kdbx</b>"
+msgstr "База даних Keepass <b>.kdbx</b>"
+
+#. module: vault
+#: model:ir.model.fields,field_description:vault.field_res_config_settings__module_vault_share
+msgid "Module Vault Share"
+msgstr "Модуль спільного доступу Vault"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.inbox
+msgid "Name of your secret:"
+msgstr "Назва вашого секрету:"
+
+#. module: vault
+#: model:ir.model.constraint,message:vault.constraint_vault_inbox_value_check
+#: model:ir.model.constraint,message:vault.constraint_vault_send_wizard_value_check
+msgid "No value found"
+msgstr "Значення не знайдено"
+
+#. module: vault
+#: model:ir.model.fields,field_description:vault.field_vault__reencrypt_required
+msgid "Reencrypt Required"
+msgstr "Потрібне повторне шифрування"
+
+#. module: vault
+#: model:ir.model.fields,field_description:vault.field_vault_store_wizard__secret_temporary
+msgid "Secret Temporary"
+msgstr "Тимчасовий секрет"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.inbox
+msgid "Secret to share:"
+msgstr "Секрет для поширення:"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_import_wizard
+msgid "The files must end on one of the supported file type:"
+msgstr "Файли мають закінчуватися одним із підтримуваних типів:"
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_vault_send_wizard
+msgid ""
+"You can only send the secret to the user who has generated a key-pair.\n"
+"                        If an user is not showing please ask him to generate these."
+msgstr ""
+"Секрет можна надіслати лише користувачу, який створив пару ключів.\n"
+"                        Якщо користувач не відображається, попросіть його створити її."
+
+#. module: vault
+#: model_terms:ir.ui.view,arch_db:vault.view_users_form_keys_modif
+msgid ""
+"You will loose access to all vaults and your inbox. Do you want to continue?"
+msgstr ""
+"Ви втратите доступ до всіх сховищ і своєї вхідної скриньки. Продовжити?"

@@ -27,3 +27,8 @@ msgstr "Технічна назва"
 #: model:ir.model.fields,field_description:auth_api_key_server_env.field_auth_api_key__server_env_defaults
 msgid "Server Env Defaults"
 msgstr "Типові значення серверного середовища"
+
+#. module: auth_api_key_server_env
+#: model:ir.model.fields,help:auth_api_key_server_env.field_auth_api_key__tech_name
+msgid "Unique name for technical purposes. Eg: server env keys."
+msgstr "Унікальна назва для технічних цілей. Наприклад: ключі server env."

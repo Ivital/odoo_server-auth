@@ -74,3 +74,8 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:auth_api_key.field_auth_api_key__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: auth_api_key
+#: model_terms:ir.ui.view,arch_db:auth_api_key.res_config_settings_view_form
+msgid "Disable API key when archiving user"
+msgstr "Вимикати ключ API під час архівування користувача"

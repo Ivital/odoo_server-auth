@@ -58,3 +58,14 @@ msgstr "Останні токени"
 #: model:ir.model.fields,field_description:auth_oauth_multi_token.field_res_users__oauth_access_token_ids
 msgid "OAuth Tokens"
 msgstr "Токени OAuth"
+
+#. module: auth_oauth_multi_token
+#: model:ir.model.fields,field_description:auth_oauth_multi_token.field_res_users__oauth_access_max_token
+msgid "Max Number of Simultaneous Connections"
+msgstr "Максимальна кількість одночасних з’єднань"
+
+#. module: auth_oauth_multi_token
+#: model:ir.model.fields,field_description:auth_oauth_multi_token.field_auth_oauth_multi_token__oauth_access_token
+#: model:ir.model.fields,field_description:auth_oauth_multi_token.field_res_users__oauth_access_token
+msgid "OAuth Access Token"
+msgstr "Токен доступу OAuth"

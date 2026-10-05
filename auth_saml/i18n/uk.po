@@ -149,3 +149,183 @@ msgstr "ID користувача SAML"
 #: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__sign_metadata
 msgid "Sign Metadata"
 msgstr "Метадані підпису"
+
+#. module: auth_saml
+#: model_terms:ir.ui.view,arch_db:auth_saml.view_saml_provider_form
+msgid "Algorithm used to sign requests."
+msgstr "Алгоритм підпису запитів."
+
+#. module: auth_saml
+#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__attribute_mapping_ids
+msgid "Attribute Mapping"
+msgstr "Зіставлення атрибутів"
+
+#. module: auth_saml
+#: model_terms:ir.ui.view,arch_db:auth_saml.view_saml_provider_form
+msgid ""
+"Attribute to match the user in Odoo with against the IDP (Identity "
+"Provider). You may use the special case \"subject.nameId\" to match against "
+"the nameId in the IDP response."
+msgstr ""
+"Атрибут для зіставлення користувача Odoo з IDP (постачальником "
+"ідентифікації). Можна використати спеціальний випадок \"subject.nameId\" для"
+" зіставлення з nameId у відповіді IDP."
+
+#. module: auth_saml
+#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__authn_requests_signed
+msgid "Authn Requests Signed"
+msgstr "Запити Authn підписано"
+
+#. module: auth_saml
+#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__autoredirect
+msgid "Automatic Redirection"
+msgstr "Автоматичне перенаправлення"
+
+#. module: auth_saml
+#: model_terms:ir.ui.view,arch_db:auth_saml.view_saml_provider_form
+msgid ""
+"Available after first save. The URL will change if the provider is deleted "
+"&amp; recreated or the database is renamed."
+msgstr ""
+"Доступно після першого збереження. URL зміниться, якщо постачальника "
+"видалити й створити заново або перейменувати базу даних."
+
+#. module: auth_saml
+#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__css_class
+msgid "Button Icon CSS class"
+msgstr "CSS-клас іконки кнопки"
+
+#. module: auth_saml
+#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_request__saml_request_id
+msgid "Current Request ID"
+msgstr "ID поточного запиту"
+
+#. module: auth_saml
+#: model_terms:ir.ui.view,arch_db:auth_saml.view_saml_provider_form
+msgid ""
+"Entity Identifier sent to the IDP. Often this would be the metadata URL, but"
+" it can be any string."
+msgstr ""
+"Ідентифікатор сутності, що надсилається до IDP. Часто це URL метаданих, але "
+"може бути будь-який рядок."
+
+#. module: auth_saml
+#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_attribute_mapping__attribute_name
+msgid "IDP Response Attribute"
+msgstr "Атрибут відповіді IDP"
+
+#. module: auth_saml
+#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__idp_metadata_url
+msgid "Identity Provider Metadata URL"
+msgstr "URL метаданих постачальника ідентифікації"
+
+#. module: auth_saml
+#: model_terms:ir.ui.view,arch_db:auth_saml.view_saml_provider_form
+msgid "Identity Provider Settings"
+msgstr "Налаштування постачальника ідентифікації"
+
+#. module: auth_saml
+#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__matching_attribute
+msgid "Identity Provider matching attribute"
+msgstr "Атрибут зіставлення постачальника ідентифікації"
+
+#. module: auth_saml
+#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__body
+msgid "Login button label"
+msgstr "Мітка кнопки входу"
+
+#. module: auth_saml
+#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__logout_requests_signed
+msgid "Logout Requests Signed"
+msgstr "Запити на вихід підписуються"
+
+#. module: auth_saml
+#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__matching_attribute_to_lower
+msgid "Lowercase IDP Matching Attribute"
+msgstr "Атрибут зіставлення IDP у нижньому регістрі"
+
+#. module: auth_saml
+#: model_terms:ir.ui.view,arch_db:auth_saml.view_saml_provider_form
+msgid ""
+"Mapped attributes are copied from the SAML response at every logon, if "
+"available. If multiple values are returned (i.e. a list) then the first "
+"value is used."
+msgstr ""
+"Зіставлені атрибути копіюються з відповіді SAML під час кожного входу, якщо "
+"доступні. Якщо повернуто кілька значень (список), використовується перше."
+
+#. module: auth_saml
+#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__sp_baseurl
+msgid "Override Base URL"
+msgstr "Перевизначити базовий URL"
+
+#. module: auth_saml
+#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_request__saml_provider_id
+msgid "SAML Provider that issued the token"
+msgstr "Постачальник SAML, який видав токен"
+
+#. module: auth_saml
+#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__sign_authenticate_requests
+msgid "Sign Authenticate Requests"
+msgstr "Підписувати запити автентифікації"
+
+#. module: auth_saml
+#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__sig_alg
+msgid "Signature Algorithm"
+msgstr "Алгоритм підпису"
+
+#. module: auth_saml
+#: model_terms:ir.ui.view,arch_db:auth_saml.view_saml_provider_form
+msgid ""
+"The URL configured for the ACS must exactly match what is sent. If you have "
+"odoo responding on multiple URLs you can use this to force it to send a "
+"specific address rather than rely on automatically detecting."
+msgstr ""
+"URL, налаштована для ACS, має точно збігатися з тією, що надсилається. Якщо "
+"Odoo відповідає за кількома URL, тут можна примусово вказати конкретну "
+"адресу замість автоматичного визначення."
+
+#. module: auth_saml
+#: model_terms:ir.ui.view,arch_db:auth_saml.view_saml_provider_form
+msgid ""
+"The metadata may be automatically redownloaded from that URL. If that's okay"
+" for you and you provider gives you a URL, use this field "
+"preferably. Otherwise use the next one"
+msgstr ""
+"Метадані можуть автоматично повторно завантажуватися з цього URL. Якщо це "
+"підходить і постачальник надає URL, бажано використовувати це поле. Інакше "
+"використовуйте наступне"
+
+#. module: auth_saml
+#: model_terms:ir.ui.view,arch_db:auth_saml.view_saml_provider_form
+msgid ""
+"Used to sign requests sent to the IDP. You can use openssl to generate a "
+"certificate and key."
+msgstr ""
+"Використовується для підписання запитів, надісланих до IDP. Для створення "
+"сертифіката й ключа можна використати openssl."
+
+#. module: auth_saml
+#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__want_assertions_or_response_signed
+msgid "Want Assertions Or Response Signed"
+msgstr "Потрібні підписані твердження або відповідь"
+
+#. module: auth_saml
+#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__want_assertions_signed
+msgid "Want Assertions Signed"
+msgstr "Потрібні підписані твердження"
+
+#. module: auth_saml
+#: model:ir.model.fields,field_description:auth_saml.field_auth_saml_provider__want_response_signed
+msgid "Want Response Signed"
+msgstr "Потрібна підписана відповідь"
+
+#. module: auth_saml
+#: model_terms:ir.ui.view,arch_db:auth_saml.view_saml_provider_form
+msgid "Your ACS url will be base_url + /auth_saml/signin"
+msgstr "Ваш ACS URL буде base_url + /auth_saml/signin"
+
+#. module: auth_saml
+#: model_terms:ir.ui.view,arch_db:auth_saml.view_saml_provider_form
+msgid "Your provider will give you this XML once configured."
+msgstr "Ваш постачальник надасть цей XML після налаштування."

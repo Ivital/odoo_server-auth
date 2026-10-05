@@ -109,7 +109,7 @@ msgstr "Дні"
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
 msgid "Disallow reuse of"
-msgstr ""
+msgstr "Заборонити повторне використання"
 
 #. module: password_security
 #: model:ir.model.fields,help:password_security.field_res_company__password_history
@@ -164,7 +164,7 @@ msgstr "Дата останньої зміни"
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users__password_write_date
 msgid "Last password update"
-msgstr ""
+msgstr "Останнє оновлення пароля"
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_company__password_lower
@@ -181,22 +181,22 @@ msgstr "Мінімум годин"
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
 msgid "Minimum number of lowercase characters"
-msgstr ""
+msgstr "Мінімальна кількість малих літер"
 
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
 msgid "Minimum number of numeric characters"
-msgstr ""
+msgstr "Мінімальна кількість цифрових символів"
 
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
 msgid "Minimum number of special characters"
-msgstr ""
+msgstr "Мінімальна кількість спеціальних символів"
 
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
 msgid "Minimum number of uppercase characters"
-msgstr ""
+msgstr "Мінімальна кількість великих літер"
 
 #. module: password_security
 #. odoo-python
@@ -214,7 +214,7 @@ msgstr "Числовий"
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users__password_history_ids
 msgid "Password History"
-msgstr ""
+msgstr "Історія паролів"
 
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
@@ -224,7 +224,7 @@ msgstr "Політика паролів"
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
 msgid "Password expires in"
-msgstr ""
+msgstr "Пароль спливає через"
 
 #. module: password_security
 #. odoo-python
@@ -286,7 +286,7 @@ msgstr "Верхній регістр"
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
 msgid "Use negative number for infinite, or 0 to disable"
-msgstr ""
+msgstr "Використовуйте від’ємне число для нескінченності або 0 для вимкнення"
 
 #. module: password_security
 #: model:ir.model,name:password_security.model_res_users
@@ -297,7 +297,7 @@ msgstr "Користувач"
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
 msgid "User can change password in"
-msgstr ""
+msgstr "Користувач може змінити пароль у"
 
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
@@ -312,4 +312,4 @@ msgstr "годин знову."
 #. module: password_security
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
 msgid "previous passwords."
-msgstr ""
+msgstr "попередні паролі."

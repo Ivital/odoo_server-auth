@@ -52,3 +52,13 @@ msgstr "URL завершення сеансу"
 #: model:ir.model.fields,field_description:auth_oidc.field_auth_oauth_provider__validation_endpoint
 msgid "UserInfo URL"
 msgstr "URL UserInfo"
+
+#. module: auth_oidc
+#: model:ir.model.fields.selection,name:auth_oidc.selection__auth_oauth_provider__flow__id_token_code
+msgid "OpenID Connect (authorization code flow)"
+msgstr "OpenID Connect (потік коду авторизації)"
+
+#. module: auth_oidc
+#: model:ir.model.fields.selection,name:auth_oidc.selection__auth_oauth_provider__flow__id_token
+msgid "OpenID Connect (implicit flow, not recommended)"
+msgstr "OpenID Connect (implicit flow, не рекомендується)"

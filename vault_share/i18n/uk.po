@@ -134,3 +134,23 @@ msgstr "Спільний файл:"
 #: model_terms:ir.ui.view,arch_db:vault_share.share
 msgid "Shared secret:"
 msgstr "Спільний секрет:"
+
+#. module: vault_share
+#: model:ir.actions.server,name:vault_share.cron_share_clean_ir_actions_server
+msgid "Clean outgoing share"
+msgstr "Очистити вихідний спільний доступ"
+
+#. module: vault_share
+#: model_terms:ir.ui.view,arch_db:vault_share.res_config_settings_view_form
+msgid "Delay the deletion of shares"
+msgstr "Відкласти видалення спільних доступів"
+
+#. module: vault_share
+#: model:ir.model.constraint,message:vault_share.constraint_vault_share_value_check
+msgid "No value found"
+msgstr "Значення не знайдено"
+
+#. module: vault_share
+#: model:ir.model.fields,field_description:vault_share.field_res_company__vault_share_delay
+msgid "Vault Share Delay"
+msgstr "Затримка спільного доступу Vault"

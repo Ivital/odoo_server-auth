@@ -37,3 +37,37 @@ msgstr "Налаштувати MFA"
 #: model_terms:ir.ui.view,arch_db:auth_totp_enforce.auth_totp_setup_form
 msgid "e.g. 123456"
 msgstr "напр., 123456"
+
+#. module: auth_totp_enforce
+#: model_terms:ir.ui.view,arch_db:auth_totp_enforce.auth_totp_setup_form
+msgid "Activate &amp; Log in"
+msgstr "Активувати й увійти"
+
+#. module: auth_totp_enforce
+#: model_terms:ir.ui.view,arch_db:auth_totp_enforce.auth_totp_setup_form
+msgid ""
+"Install an authenticator app on your device\n"
+"                        (Authy, Google Authenticator, Microsoft Authenticator...)."
+msgstr ""
+"Установіть застосунок-автентифікатор на своєму пристрої\n"
+"                        (Authy, Google Authenticator, Microsoft Authenticator...)."
+
+#. module: auth_totp_enforce
+#: model_terms:ir.ui.view,arch_db:auth_totp_enforce.auth_totp_setup_form
+msgid "Look for an \"Add an account\" button."
+msgstr "Знайдіть кнопку «Додати обліковий запис»."
+
+#. module: auth_totp_enforce
+#: model_terms:ir.ui.view,arch_db:auth_totp_enforce.auth_totp_setup_form
+msgid "Scan the QR code below, or enter the key manually."
+msgstr "Відскануйте QR-код нижче або введіть ключ вручну."
+
+#. module: auth_totp_enforce
+#: model_terms:ir.ui.view,arch_db:auth_totp_enforce.auth_totp_setup_form
+msgid "Two-factor authentication is required for your account."
+msgstr "Для вашого облікового запису потрібна двофакторна автентифікація."
+
+#. module: auth_totp_enforce
+#: model_terms:ir.ui.view,arch_db:auth_totp_enforce.auth_totp_setup_form
+msgid "Verification Code"
+msgstr "Код підтвердження"

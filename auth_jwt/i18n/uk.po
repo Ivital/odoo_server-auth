@@ -153,3 +153,38 @@ msgstr "Статичний"
 #: model_terms:ir.ui.view,arch_db:auth_jwt.view_auth_jwt_validator_form
 msgid "arch"
 msgstr "архітектура"
+
+#. module: auth_jwt
+#: model:ir.model.fields,field_description:auth_jwt.field_auth_jwt_validator__partner_id_required
+msgid "Partner Id Required"
+msgstr "ID партнера обов’язковий"
+
+#. module: auth_jwt
+#: model:ir.model.fields,field_description:auth_jwt.field_auth_jwt_validator__partner_id_strategy
+msgid "Partner Id Strategy"
+msgstr "Стратегія ID партнера"
+
+#. module: auth_jwt
+#: model:ir.model.fields,field_description:auth_jwt.field_auth_jwt_validator__public_key_algorithm
+msgid "Public Key Algorithm"
+msgstr "Алгоритм відкритого ключа"
+
+#. module: auth_jwt
+#: model:ir.model.fields,field_description:auth_jwt.field_auth_jwt_validator__public_key_jwk_uri
+msgid "Public Key Jwk Uri"
+msgstr "URI JWK відкритого ключа"
+
+#. module: auth_jwt
+#: model:ir.model.fields,field_description:auth_jwt.field_auth_jwt_validator__secret_algorithm
+msgid "Secret Algorithm"
+msgstr "Алгоритм секрету"
+
+#. module: auth_jwt
+#: model_terms:ir.ui.view,arch_db:auth_jwt.view_auth_jwt_validator_form
+msgid "Token validation"
+msgstr "Перевірка токена"
+
+#. module: auth_jwt
+#: model:ir.model.fields,field_description:auth_jwt.field_auth_jwt_validator__user_id_strategy
+msgid "User Id Strategy"
+msgstr "Стратегія ID користувача"
