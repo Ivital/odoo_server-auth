@@ -17,3 +17,10 @@ msgstr ""
 #: model:ir.model.fields,field_description:auth_oauth_filter_by_domain.field_auth_oauth_provider__allowed_domains
 msgid "Allowed Domains"
 msgstr "Дозволені домени"
+
+#. module: auth_oauth_filter_by_domain
+#: model:ir.model.fields,help:auth_oauth_filter_by_domain.field_auth_oauth_provider__allowed_domains
+msgid "Comma-separated list of domains that can use this provider."
+msgstr ""
+"Розділений комами список доменів, які можуть використовувати цього "
+"постачальника."

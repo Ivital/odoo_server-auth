@@ -783,3 +783,188 @@ msgid ""
 "You will loose access to all vaults and your inbox. Do you want to continue?"
 msgstr ""
 "Ви втратите доступ до всіх сховищ і своєї вхідної скриньки. Продовжити?"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/models/vault_entry.py:0
+msgid "%s (copy)"
+msgstr "%s (копія)"
+
+#. module: vault
+#: model:ir.model,name:vault.model_vault_abstract_field
+msgid "Abstract model to implement basic fields for encryption"
+msgstr "Абстрактна модель для реалізації базових полів шифрування"
+
+#. module: vault
+#: model:ir.model,name:vault.model_vault_abstract
+msgid "Abstract model to implement general access rights"
+msgstr "Абстрактна модель реалізації загальних прав доступу"
+
+#. module: vault
+#: model:ir.model.fields,help:vault.field_vault_right__perm_create
+msgid "Allow to create in the vault"
+msgstr "Дозволити створення у сховищі"
+
+#. module: vault
+#: model:ir.model.fields,help:vault.field_vault_right__perm_delete
+msgid "Allow to delete a vault"
+msgstr "Дозволити видалення сховища"
+
+#. module: vault
+#: model:res.groups,name:vault.group_vault_export
+msgid "Allow to export vaults"
+msgstr "Дозволити експорт сховищ"
+
+#. module: vault
+#: model:res.groups,name:vault.group_vault_import
+msgid "Allow to import vaults"
+msgstr "Дозволити імпорт сховищ"
+
+#. module: vault
+#: model:ir.model.fields,help:vault.field_vault_right__perm_share
+msgid "Allow to share a vault with new users"
+msgstr "Дозволити ділитися сховищем із новими користувачами"
+
+#. module: vault
+#: model:ir.model.fields,help:vault.field_vault_right__perm_write
+msgid "Allow to write to the vault"
+msgstr "Дозволити запис у сховище"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/templates.xml:0
+msgid "Enter"
+msgstr "Ввести"
+
+#. module: vault
+#: model:ir.model,name:vault.model_vault_entry
+msgid "Entry inside a vault"
+msgstr "Запис у сховищі"
+
+#. module: vault
+#: model:ir.model,name:vault.model_vault_export_wizard
+msgid "Export wizard for vaults"
+msgstr "Майстер експорту сховищ"
+
+#. module: vault
+#: model:ir.model,name:vault.model_vault_field
+msgid "Field of a vault"
+msgstr "Поле сховища"
+
+#. module: vault
+#: model:ir.model,name:vault.model_vault_file
+msgid "File of a vault"
+msgstr "Файл сховища"
+
+#. module: vault
+#: model:ir.model.fields,help:vault.field_vault_inbox__expiration
+msgid "If expired the inbox can't be written using the link"
+msgstr "Якщо строк дії минув, у вхідні не можна записувати через посилання"
+
+#. module: vault
+#: model:ir.model.fields,help:vault.field_vault_inbox__accesses
+msgid "If this is 0 the inbox can't be written using the link"
+msgstr ""
+"Якщо значення дорівнює 0, у вхідні не можна буде записувати через посилання"
+
+#. module: vault
+#: model:ir.model,name:vault.model_vault_import_wizard
+msgid "Import wizard for vaults"
+msgstr "Майстер імпорту сховищ"
+
+#. module: vault
+#: model:ir.model,name:vault.model_vault_import_wizard_path
+msgid "Import wizard path for vaults"
+msgstr "Шлях майстра імпорту для сховищ"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/models/res_users_key.py:0
+msgid "Invalid parameter"
+msgstr "Недійсний параметр"
+
+#. module: vault
+#. odoo-python
+#: code:addons/vault/controllers/main.py:0
+msgid "Invalid token"
+msgstr "Недійсний токен"
+
+#. module: vault
+#: model:ir.model,name:vault.model_vault_log
+msgid "Log entry of a vault"
+msgstr "Запис журналу сховища"
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/fields/vault_export_file.esm.js:0
+#: code:addons/vault/static/src/backend/fields/vault_file.esm.js:0
+msgid "Save As..."
+msgstr "Зберегти як..."
+
+#. module: vault
+#. odoo-javascript
+#: code:addons/vault/static/src/backend/fields/templates.xml:0
+msgid "Save in a vault"
+msgstr "Зберегти у сховищі"
+
+#. module: vault
+#: model:ir.model.constraint,message:vault.constraint_vault_entry_vault_uuid_uniq
+#: model:ir.model.constraint,message:vault.constraint_vault_uuid_uniq
+msgid "The UUID must be unique."
+msgstr "UUID має бути унікальним."
+
+#. module: vault
+#: model:ir.model.constraint,message:vault.constraint_vault_tag_name_uniq
+msgid "The tag must be unique!"
+msgstr "Тег має бути унікальним!"
+
+#. module: vault
+#: model:ir.model.constraint,message:vault.constraint_vault_right_user_uniq
+msgid "The user must be unique"
+msgstr "Користувач має бути унікальним"
+
+#. module: vault
+#: model:ir.model,name:vault.model_res_users_key
+msgid "User data of a vault"
+msgstr "Дані користувача сховища"
+
+#. module: vault
+#: model:ir.model.fields,help:vault.field_vault_inbox__inbox_link
+msgid ""
+"Using this link you can write to the current inbox. If you want people to "
+"create new inboxes you should give them your inbox link from your key "
+"management."
+msgstr ""
+"За цим посиланням можна писати до поточної скриньки. Якщо ви хочете, щоб "
+"інші могли створювати нові скриньки, передайте їм посилання на вашу скриньку"
+" з керування ключами."
+
+#. module: vault
+#: model:ir.model,name:vault.model_vault_inbox_log
+msgid "Vault inbox log"
+msgstr "Журнал вхідних сховища"
+
+#. module: vault
+#: model:ir.model,name:vault.model_vault_right
+msgid "Vault rights"
+msgstr "Права сховища"
+
+#. module: vault
+#: model:ir.model,name:vault.model_vault_inbox
+msgid "Vault share incoming secrets"
+msgstr "Вхідні секрети спільного доступу до сховища"
+
+#. module: vault
+#: model:ir.model,name:vault.model_vault_tag
+msgid "Vault tag"
+msgstr "Тег сховища"
+
+#. module: vault
+#: model:ir.model,name:vault.model_vault_store_wizard
+msgid "Wizard store a shared secret in a vault"
+msgstr "Майстер збереження спільного секрету у сховищі"
+
+#. module: vault
+#: model:ir.model,name:vault.model_vault_send_wizard
+msgid "Wizard to send another user a secret"
+msgstr "Майстер надсилання секрету іншому користувачу"

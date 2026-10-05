@@ -69,3 +69,8 @@ msgstr "Максимальна кількість одночасних з’єд
 #: model:ir.model.fields,field_description:auth_oauth_multi_token.field_res_users__oauth_access_token
 msgid "OAuth Access Token"
 msgstr "Токен доступу OAuth"
+
+#. module: auth_oauth_multi_token
+#: model:ir.model,name:auth_oauth_multi_token.model_auth_oauth_multi_token
+msgid "OAuth2 Token"
+msgstr "Токен OAuth2"

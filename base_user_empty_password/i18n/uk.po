@@ -64,3 +64,8 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:base_user_empty_password.empty_password_wizard_view
 msgid "Are you sure you want to empty password of selected users?"
 msgstr "Ви впевнені, що хочете очистити пароль вибраних користувачів?"
+
+#. module: base_user_empty_password
+#: model:ir.model,name:base_user_empty_password.model_empty_password_wizard
+msgid "Empty Password Wizard"
+msgstr "Майстер порожнього пароля"

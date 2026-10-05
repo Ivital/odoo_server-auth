@@ -71,3 +71,13 @@ msgstr "Для вашого облікового запису потрібна �
 #: model_terms:ir.ui.view,arch_db:auth_totp_enforce.auth_totp_setup_form
 msgid "Verification Code"
 msgstr "Код підтвердження"
+
+#. module: auth_totp_enforce
+#: model:res.groups,name:auth_totp_enforce.group_mfa_exempt
+msgid "Exempt from 2FA enforcement"
+msgstr "Звільнено від обов’язкового 2FA"
+
+#. module: auth_totp_enforce
+#: model:res.groups,comment:auth_totp_enforce.group_mfa_exempt
+msgid "Members of this group are NOT forced to configure MFA at login."
+msgstr "Члени цієї групи НЕ зобов’язані налаштовувати MFA під час входу."

@@ -101,3 +101,22 @@ msgid ""
 msgstr ""
 "Забороняє видавати себе за користувачів із правами доступу «Адміністрування:"
 " Налаштування»."
+
+#. module: impersonate_login
+#: model:ir.model.fields,help:impersonate_login.field_res_config_settings__restrict_impersonate_admin_settings
+msgid ""
+"If enabled, users with the 'Administration: Settings' access right cannot be"
+" impersonated."
+msgstr ""
+"Якщо ввімкнено, користувачів із правом «Адміністрування: Налаштування» не "
+"можна буде імперсонувати."
+
+#. module: impersonate_login
+#: model:ir.model,name:impersonate_login.model_impersonate_log
+msgid "Impersonate Logs"
+msgstr "Журнали входу від імені користувача"
+
+#. module: impersonate_login
+#: model:res.groups,name:impersonate_login.group_impersonate_login
+msgid "Impersonate Users"
+msgstr "Вхід від імені користувачів"

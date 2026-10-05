@@ -104,3 +104,72 @@ msgstr "Кінцева точка Cross Connect"
 #: model:ir.model.fields,field_description:cross_connect_server.field_cross_connect_client__user_count
 msgid "Cross Connected User Count"
 msgstr "Кількість користувачів із перехресним з’єднанням"
+
+#. module: cross_connect_server
+#: model:res.groups,name:cross_connect_server.group_cross_connect_manager
+msgid "Cross Connect Manager"
+msgstr "Менеджер Cross Connect"
+
+#. module: cross_connect_server
+#: model:ir.model.fields,help:cross_connect_server.field_cross_connect_client__bypass_user_mail_re
+msgid ""
+"If set, users with an email matching one of these regex will bypass the "
+"token user/login creation. The regexes are comma separated."
+msgstr ""
+"Якщо задано, користувачі з електронною адресою, що відповідає одному з цих "
+"регулярних виразів, оминатимуть створення користувача/логіна для токена. "
+"Регулярні вирази розділяються комами."
+
+#. module: cross_connect_server
+#. odoo-python
+#: code:addons/cross_connect_server/models/cross_connect_client.py:0
+msgid "Invalid Token"
+msgstr "Недійсний токен"
+
+#. module: cross_connect_server
+#: model:ir.model.fields,help:cross_connect_server.field_cross_connect_client__api_key
+msgid "The API key to give to configure on the client."
+msgstr "API-ключ, який потрібно передати для налаштування клієнта."
+
+#. module: cross_connect_server
+#: model:ir.model.fields,help:cross_connect_server.field_fastapi_endpoint__cross_connect_client_ids
+msgid "The clients that can access this endpoint."
+msgstr "Клієнти, які можуть отримувати доступ до цієї кінцевої точки."
+
+#. module: cross_connect_server
+#: model:ir.model.fields,help:cross_connect_server.field_res_users__cross_connect_client_id
+msgid "The cross connect client that created this user."
+msgstr "Клієнт cross-connect, який створив цього користувача."
+
+#. module: cross_connect_server
+#: model:ir.model.fields,help:cross_connect_server.field_cross_connect_client__allowed_group_ids
+#: model:ir.model.fields,help:cross_connect_server.field_fastapi_endpoint__cross_connect_allowed_group_ids
+msgid "The groups that can access the cross connect clients of this endpoint."
+msgstr ""
+"Групи, які можуть отримувати доступ до клієнтів cross-connect цієї кінцевої "
+"точки."
+
+#. module: cross_connect_server
+#: model:ir.model.fields,help:cross_connect_server.field_cross_connect_client__group_ids
+msgid "The groups that this client belongs to."
+msgstr "Групи, до яких належить цей клієнт."
+
+#. module: cross_connect_server
+#: model:ir.model.fields,help:cross_connect_server.field_cross_connect_client__user_count
+msgid "The number of users created by this cross connection."
+msgstr "Кількість користувачів, створених цим cross-connect."
+
+#. module: cross_connect_server
+#: model:ir.model.fields,help:cross_connect_server.field_fastapi_endpoint__cross_connect_secret_key
+msgid "The secret key used for cross connection."
+msgstr "Секретний ключ для cross-connect."
+
+#. module: cross_connect_server
+#: model:ir.model.fields,help:cross_connect_server.field_res_users__cross_connect_client_user_id
+msgid "The user ID on the cross connect client."
+msgstr "ID користувача клієнта cross-connect."
+
+#. module: cross_connect_server
+#: model:ir.model.fields,help:cross_connect_server.field_cross_connect_client__user_ids
+msgid "The users created by this cross connection."
+msgstr "Користувачі, створені цим cross-connect."

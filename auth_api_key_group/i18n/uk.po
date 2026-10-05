@@ -63,3 +63,8 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:auth_api_key_group.field_auth_api_key_group__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: auth_api_key_group
+#: model:ir.model,name:auth_api_key_group.model_auth_api_key_group
+msgid "API Key auth group"
+msgstr "Група автентифікації API-ключем"

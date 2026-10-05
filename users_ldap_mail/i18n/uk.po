@@ -22,3 +22,17 @@ msgstr "Атрибут email"
 #: model:ir.model.fields,field_description:users_ldap_mail.field_res_company_ldap__name_attribute
 msgid "Name Attribute"
 msgstr "Атрибут імені"
+
+#. module: users_ldap_mail
+#: model:ir.model.fields,help:users_ldap_mail.field_res_company_ldap__name_attribute
+msgid ""
+"By default 'cn' is used. For ActiveDirectory you might use 'displayName' "
+"instead."
+msgstr ""
+"Типово використовується 'cn'. Для ActiveDirectory можна використати "
+"'displayName'."
+
+#. module: users_ldap_mail
+#: model:ir.model.fields,help:users_ldap_mail.field_res_company_ldap__mail_attribute
+msgid "LDAP attribute to use to retrieve e-mail address."
+msgstr "Атрибут LDAP для отримання email-адреси."

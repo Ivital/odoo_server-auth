@@ -118,6 +118,8 @@ msgid ""
 "Disallow reuse of this many previous passwords - use negative number for "
 "infinite, or 0 to disable"
 msgstr ""
+"Заборонити повторне використання такої кількості попередніх паролів — "
+"від’ємне значення означає без обмежень, 0 — вимкнути"
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__display_name
@@ -139,7 +141,7 @@ msgstr "Історія"
 #: model:ir.model.fields,help:password_security.field_res_company__password_expiration
 #: model:ir.model.fields,help:password_security.field_res_config_settings__password_expiration
 msgid "How many days until passwords expire"
-msgstr ""
+msgstr "Через скільки днів закінчується строк дії пароля"
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_users_pass_history__id
@@ -246,30 +248,30 @@ msgstr ""
 #: model:ir.model.fields,help:password_security.field_res_company__password_lower
 #: model:ir.model.fields,help:password_security.field_res_config_settings__password_lower
 msgid "Require number of lowercase letters"
-msgstr ""
+msgstr "Вимагати певну кількість малих літер"
 
 #. module: password_security
 #: model:ir.model.fields,help:password_security.field_res_company__password_numeric
 #: model:ir.model.fields,help:password_security.field_res_config_settings__password_numeric
 msgid "Require number of numeric digits"
-msgstr ""
+msgstr "Вимагати певну кількість цифр"
 
 #. module: password_security
 #: model:ir.model.fields,help:password_security.field_res_company__password_special
 #: model:ir.model.fields,help:password_security.field_res_config_settings__password_special
 msgid "Require number of unique special characters"
-msgstr ""
+msgstr "Вимагати певну кількість унікальних спеціальних символів"
 
 #. module: password_security
 #: model:ir.model.fields,help:password_security.field_res_company__password_upper
 #: model:ir.model.fields,help:password_security.field_res_config_settings__password_upper
 msgid "Require number of uppercase letters"
-msgstr ""
+msgstr "Вимагати певну кількість великих літер"
 
 #. module: password_security
 #: model:ir.model,name:password_security.model_res_users_pass_history
 msgid "Res Users Password History"
-msgstr ""
+msgstr "Історія паролів користувача"
 
 #. module: password_security
 #: model:ir.model.fields,field_description:password_security.field_res_company__password_special
@@ -313,3 +315,8 @@ msgstr "годин знову."
 #: model_terms:ir.ui.view,arch_db:password_security.res_config_settings_view_form
 msgid "previous passwords."
 msgstr "попередні паролі."
+
+#. module: password_security
+#: model:ir.model.fields,help:password_security.field_res_config_settings__password_minimum
+msgid "Number of hours until a user may change password again"
+msgstr "Кількість годин, після яких користувач знову може змінити пароль"

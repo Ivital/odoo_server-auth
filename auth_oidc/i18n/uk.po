@@ -62,3 +62,43 @@ msgstr "OpenID Connect (потік коду авторизації)"
 #: model:ir.model.fields.selection,name:auth_oidc.selection__auth_oauth_provider__flow__id_token
 msgid "OpenID Connect (implicit flow, not recommended)"
 msgstr "OpenID Connect (implicit flow, не рекомендується)"
+
+#. module: auth_oidc
+#: model:auth.oauth.provider,body:auth_oidc.provider_azuread_multi
+#: model:auth.oauth.provider,body:auth_oidc.provider_azuread_single
+msgid "Log in with Microsoft"
+msgstr "Увійти через Microsoft"
+
+#. module: auth_oidc
+#: model:ir.model.fields,help:auth_oidc.field_auth_oauth_provider__token_endpoint
+msgid "Required for OpenID Connect authorization code flow."
+msgstr "Потрібно для потоку коду авторизації OpenID Connect."
+
+#. module: auth_oidc
+#: model:ir.model.fields,help:auth_oidc.field_auth_oauth_provider__jwks_uri
+msgid "Required for OpenID Connect."
+msgstr "Потрібно для OpenID Connect."
+
+#. module: auth_oidc
+#: model:ir.model.fields,help:auth_oidc.field_auth_oauth_provider__token_map
+msgid ""
+"Some Oauth providers don't map keys in their responses exactly as required."
+"  It is important to ensure user_id and email at least are mapped. For "
+"OpenID Connect user_id is the sub key in the standard."
+msgstr ""
+"Деякі постачальники OAuth не зіставляють ключі у своїх відповідях точно так,"
+" як потрібно. Важливо переконатися, що принаймні user_id та email "
+"зіставлено. Для OpenID Connect user_id — це стандартний ключ sub."
+
+#. module: auth_oidc
+#: model:ir.model.fields,help:auth_oidc.field_auth_oauth_provider__code_verifier
+msgid "Used for PKCE."
+msgstr "Використовується для PKCE."
+
+#. module: auth_oidc
+#: model:ir.model.fields,help:auth_oidc.field_auth_oauth_provider__client_secret
+msgid ""
+"Used in OpenID Connect authorization code flow for confidential clients."
+msgstr ""
+"Використовується в потоці коду авторизації OpenID Connect для конфіденційних"
+" клієнтів."

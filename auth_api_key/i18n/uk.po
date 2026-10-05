@@ -79,3 +79,38 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:auth_api_key.res_config_settings_view_form
 msgid "Disable API key when archiving user"
 msgstr "Вимикати ключ API під час архівування користувача"
+
+#. module: auth_api_key
+#: model:ir.model.constraint,message:auth_api_key.constraint_auth_api_key_name_uniq
+msgid "Api Key name must be unique."
+msgstr "Назва API-ключа має бути унікальною."
+
+#. module: auth_api_key
+#: model:ir.model.fields,help:auth_api_key.field_res_company__archived_user_disable_auth_api_key
+#: model:ir.model.fields,help:auth_api_key.field_res_config_settings__archived_user_disable_auth_api_key
+msgid ""
+"If checked, when a user is archived/unactivated the same change is "
+"propagated to his related api key. It is not retroactive (nothing is done  "
+"when enabling/disabling this option)."
+msgstr ""
+"Якщо позначено, при архівації/деактивації користувача та сама зміна "
+"передається пов’язаному API-ключу. Дія не ретроактивна (під час "
+"увімкнення/вимкнення параметра нічого не відбувається)."
+
+#. module: auth_api_key
+#: model:ir.model.fields,help:auth_api_key.field_auth_api_key__key
+msgid ""
+"The API key. Enter a dummy value in this field if it is\n"
+"        obtained from the server environment configuration."
+msgstr ""
+"Ключ API. Введіть у це поле фіктивне значення, якщо ключ\n"
+"        отримується з конфігурації серверного середовища."
+
+#. module: auth_api_key
+#: model:ir.model.fields,help:auth_api_key.field_auth_api_key__user_id
+msgid ""
+"The user used to process the requests authenticated by\n"
+"        the api key"
+msgstr ""
+"Користувач, який використовується для обробки запитів, автентифікованих\n"
+"        за API-ключем"

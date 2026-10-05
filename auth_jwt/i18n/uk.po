@@ -188,3 +188,48 @@ msgstr "Перевірка токена"
 #: model:ir.model.fields,field_description:auth_jwt.field_auth_jwt_validator__user_id_strategy
 msgid "User Id Strategy"
 msgstr "Стратегія ID користувача"
+
+#. module: auth_jwt
+#: model:ir.model.fields,help:auth_jwt.field_auth_jwt_validator__audience
+msgid "Comma separated list of audiences, to validate aud."
+msgstr "Список аудиторій через кому для перевірки aud."
+
+#. module: auth_jwt
+#: model:ir.model.fields,help:auth_jwt.field_auth_jwt_validator__cookie_enabled
+msgid ""
+"Convert the JWT token into an HttpOnly Secure cookie. When both an "
+"Authorization header and the cookie are present in the request, the cookie "
+"is ignored."
+msgstr ""
+"Перетворити JWT-токен на захищений HttpOnly cookie. Якщо в запиті одночасно "
+"присутні заголовок Authorization і cookie, cookie ігнорується."
+
+#. module: auth_jwt
+#: model:ir.model,name:auth_jwt.model_auth_jwt_validator
+msgid "JWT Validator Configuration"
+msgstr "Конфігурація валідатора JWT"
+
+#. module: auth_jwt
+#: model:ir.model.constraint,message:auth_jwt.constraint_auth_jwt_validator_name_uniq
+msgid "JWT validator names must be unique !"
+msgstr "Назви валідаторів JWT мають бути унікальними!"
+
+#. module: auth_jwt
+#: model:ir.model.fields,help:auth_jwt.field_auth_jwt_validator__next_validator_id
+msgid "Next validator to try if this one fails"
+msgstr "Наступний валідатор, який слід спробувати, якщо цей не спрацює"
+
+#. module: auth_jwt
+#: model:ir.model.fields,help:auth_jwt.field_auth_jwt_validator__cookie_max_age
+msgid "Number of seconds until the cookie expires (Max-Age)."
+msgstr "Кількість секунд до завершення строку cookie (Max-Age)."
+
+#. module: auth_jwt
+#: model:ir.model.fields,help:auth_jwt.field_auth_jwt_validator__cookie_secure
+msgid "Set to false only for development without https."
+msgstr "Встановлюйте false лише для розробки без HTTPS."
+
+#. module: auth_jwt
+#: model:ir.model.fields,help:auth_jwt.field_auth_jwt_validator__issuer
+msgid "To validate iss."
+msgstr "До перевірки проблеми"

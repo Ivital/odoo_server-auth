@@ -154,3 +154,50 @@ msgstr "Значення не знайдено"
 #: model:ir.model.fields,field_description:vault_share.field_res_company__vault_share_delay
 msgid "Vault Share Delay"
 msgstr "Затримка спільного доступу Vault"
+
+#. module: vault_share
+#: model:ir.model.fields,help:vault_share.field_res_config_settings__vault_share_delay
+msgid ""
+"Delays the deletion of a share. After the expiration date it continues to "
+"stay inaccessible"
+msgstr ""
+"Відкладає видалення спільного доступу. Після дати завершення він і надалі "
+"залишається недоступним"
+
+#. module: vault_share
+#. odoo-python
+#: code:addons/vault_share/controllers/main.py:0
+msgid "Invalid token"
+msgstr "Недійсний токен"
+
+#. module: vault_share
+#: model:ir.model.fields,help:vault_share.field_vault_share__expiration
+msgid "Specifies how long a share can be accessed until deletion."
+msgstr ""
+"Визначає, як довго спільний доступ може використовуватися до видалення."
+
+#. module: vault_share
+#: model:ir.model.fields,help:vault_share.field_vault_share__accesses
+msgid "Specifies how often a share can be accessed before deletion."
+msgstr ""
+"Визначає, скільки разів можна скористатися спільним доступом до видалення."
+
+#. module: vault_share
+#: model:ir.model.fields,help:vault_share.field_vault_share__pin
+msgid "The pin needed to decrypt the share."
+msgstr "PIN-код, потрібний для розшифрування спільного доступу."
+
+#. module: vault_share
+#: model:ir.model.fields,help:vault_share.field_vault_share__share_link
+msgid "Using this link and pin people can access the secret."
+msgstr "За цим посиланням і PIN-кодом люди можуть отримати доступ до секрету."
+
+#. module: vault_share
+#: model:ir.model,name:vault_share.model_vault_share_log
+msgid "Vault share log"
+msgstr "Журнал спільного доступу до сховища"
+
+#. module: vault_share
+#: model:ir.model,name:vault_share.model_vault_share
+msgid "Vault share outgoing secrets"
+msgstr "Вихідні секрети спільного доступу до сховища"
